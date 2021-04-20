@@ -35,10 +35,14 @@
     border-radius: 50px;
 }
 
+.rp-people {
+    width: 23em;
+}
+
 .rp-header-text,
 .news-header-text {
     padding-left: 5%;
-    font-size: 1.3rem;
+    font-size: 1rem;
     font-weight: 900;
 }
 
@@ -48,7 +52,7 @@
 }
 
 .rp-p-text {
-    font-size: 1rem;
+    font-size: 0.9rem;
 }
 
 .rp-name {
@@ -103,13 +107,15 @@
 
 .wh-hashtag {
     color: #14171A;
-    font-size: 1.3rem;
+    font-size: 1rem;
     font-weight: 900;
     width: 80%;
 }
 
 .wh-top {
-    color: #657786;
+    font-size: 0.9rem;
+    border-top-left-radius: 10px!important;
+    border-top-right-radius: 10px!important;
 }
 
 .news-header {
@@ -119,7 +125,7 @@
 .news-header-text {
     padding: 2%;
     font-weight: 900;
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 .wh-tweet {
@@ -144,4 +150,18 @@
     right: 10px;
     top: 10px;
     border-radius: 20px;
+}
+
+.wh-end {
+    text-decoration: none;
+    color: #1DA1F2;
+    padding: 3%;
+    border: none;
+    border-bottom-left-radius: 10px!important;
+    border-bottom-right-radius: 10px!important;
+    background-color: #F5F8FA;
+}
+
+.middle {
+    margin-left: 5%;
 }
