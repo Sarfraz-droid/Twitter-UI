@@ -1,0 +1,58 @@
+.middle {
+    width: 40%;
+    margin-right: 2%;
+    margin-left: 3.6%;
+    border-right: 1px solid rgb(212, 212, 212);
+    padding: 0%;
+}
+
+.mid-home {
+    font-size: 1.2rem;
+    padding: 2%;
+    padding-left: 4%;
+    padding-bottom: 0%;
+    font-weight: 800;
+}
+
+.mid-star {
+    color: #1DA1F2;
+}
+
+.mid-tweet-profile {
+    margin-left: 30%;
+    width: 80%;
+}
+
+.mid-tweet-input {
+    margin-top: 1%;
+    padding: 2.5%;
+    border: none;
+    font-size: 1.2rem;
+}
+
+.mid-tweet-input:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.icon {
+    color: #1DA1F2;
+    font-size: 1.4em;
+}
+
+.mid-tweet-button {
+    background-color: #1DA1F2;
+    border-radius: 25px;
+    padding: 10px;
+    float: right;
+    margin-right: 1.5em;
+    opacity: 0.5;
+}
+
+.mid-gap-bar {
+    width: 100%;
+    height: 15px;
+    background-color: #F5F8FA;
+    border-top: 1px solid rgb(212, 212, 212);
+    border-bottom: 1px solid rgb(212, 212, 212);
+}
