@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.base {
+    padding: 0% 2% 0% 7%;
+}
+
+.left-bar {
+    border-right: 1px solid rgba(32, 32, 32, 0.144);
+    height: 720px;
+    width: 18%;
+    position: fixed;
+}
+
+.left-bar-logo {
+    font-size: 3rem;
+    border-radius: 70px;
+}
+
+.left-bar-text {
+    font-size: 1.25rem;
+}
+
+.left-active:hover {
+    background-color: #F5F8FA;
+    color: #1DA1F2;
+}
+
+.left-active {
+    border-radius: 50px;
+    font-weight: 690;
+    text-decoration: none;
+    line-height: 1em;
+}
+
+.content {
+    padding: 4% 0 3% 0;
+    margin-bottom: 6%;
+}
+
+.tweet-btn {
+    width: 90%;
+    background-color: #1DA1F2;
+    border-radius: 50px;
+    padding: 4%;
+    box-shadow: 0px 0px 9px 2px rgba(0, 0, 0, 0.123);
+}
+
+.tweet-btn:hover {
+    background-color: #1b90da;
+}
+
+.tweet-btn-text {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.profile {
+    width: 140%;
+    padding: 10%;
+}
+
+.profile-text {
+    text-align: left;
+    margin-top: 5%;
+    line-height: 1.2em;
+}
+
+.profile-id {
+    font-weight: 500;
+    font-size: .9rem;
+    letter-spacing: 0px;
+    color: grey;
+}
+
+.profile-option {
+    padding-left: 2%;
+    position: relative;
+    top: 22px;
+    left: 20px;
+    width: 100%;
+    color: black;
+}
+
+.profile-name {
+    color: black;
+}
+
+.left-profile-show {
+    margin-right: 10px;
+    position: absolute;
+    bottom: 10px;
+}

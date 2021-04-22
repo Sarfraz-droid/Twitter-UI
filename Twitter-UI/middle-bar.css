@@ -1,0 +1,155 @@
+.middle {
+    margin-left: 2.6%;
+    width: 45%;
+}
+
+.p-top {
+    font-size: 1rem;
+}
+
+.p-ntweets {
+    color: #657786!important;
+}
+
+.profile-top-name {
+    font-weight: 900;
+    font-size: 1rem;
+    margin-bottom: 0%;
+}
+
+#fa-arrow-left {
+    color: #47b3f7;
+    font-size: 20px;
+    margin: 10px 20px 0 20px;
+    cursor: pointer;
+}
+
+.headerprofileimage {
+    margin-top: 10px;
+    position: relative;
+}
+
+#headerimage {
+    width: 100%;
+}
+
+#profileimage {
+    border-radius: 50%;
+    margin-top: 5%;
+    width: 150px;
+    position: absolute;
+    top: 90px;
+    left: 20px;
+    border: 4px solid rgb(245, 245, 245);
+}
+
+.editprofile {
+    margin-top: 2%;
+    float: right;
+    color: #1b90da;
+    background-color: white;
+    border: 1px solid rgb(0, 102, 255);
+    border-radius: 30px;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-right: 10px;
+    transition: background-color .5s ease;
+}
+
+.editprofile:hover {
+    background-color: #1b91da2c;
+}
+
+.bio {
+    margin-top: 11%;
+    margin-left: 20px;
+    line-height: 40px;
+    font-size: 15px;
+}
+
+.handle {
+    line-height: 19px;
+}
+
+.followers {
+    margin-right: 15px;
+}
+
+.p-name {
+    font-weight: 900;
+    font-size: 1.2rem;
+    margin-bottom: 0%;
+}
+
+.nawa {
+    display: flex;
+}
+
+.heading {
+    display: flex;
+    margin-top: 10px;
+    font-weight: 700;
+    border-bottom: 1px solid #AAB8C2;
+}
+
+.heading p {
+    background-color: white;
+    margin-bottom: 0px!important;
+    padding: 2%;
+    font-size: .8rem;
+    transition: background-color .2s ease;
+    margin-bottom: 0%;
+}
+
+.heading p:hover {
+    color: #1b90da;
+    background-color: #1b91da15;
+}
+
+.heading-active {
+    color: #1b90da;
+    border-bottom: 3px solid #1b90da;
+}
+
+.heading-inactive,
+.wtf-p-id,
+.p-id {
+    color: #657786;
+}
+
+.wtf {
+    font-weight: 800;
+}
+
+.wtf-profile {
+    width: 100%;
+}
+
+.wtf-heading {
+    padding-left: 2%;
+    font-size: 1.3rem;
+}
+
+.wtf-p-box {
+    width: 15.5%;
+}
+
+.wtf-profile-name {
+    font-size: 1.2rem;
+    margin-bottom: 0%;
+}
+
+.wtf-follow-btn {
+    margin-right: 2%;
+    padding: 1% 3%;
+}
+
+.wtf-profile-box {
+    margin-left: .5%;
+    border-bottom: 1px solid #AAB8C2;
+}
+
+.verified {
+    color: #48aceb;
+}
