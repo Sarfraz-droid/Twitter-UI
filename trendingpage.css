@@ -99,13 +99,12 @@
     width: 44em;
     padding: 1%;
     border-bottom: 1px solid #E1E8ED;
+    transition: background-color .5s ease;
 }
 
 .trend-heading {
     font-weight: 700;
     font-size: 1rem;
-    line-height: 0em;
-    margin-top: 1%;
 }
 
 .trend-desc {
@@ -117,4 +116,16 @@
 .trend-end {
     color: #657786;
     font-size: 0.75rem;
+    line-height: .2rem;
+}
+
+.trend:hover {
+    background-color: #E1E8ED;
+}
+
+.trend-options {
+    color: black;
+    font-size: 1rem;
+    position: relative;
+    padding-right: 1%;
 }
