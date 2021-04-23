@@ -1,0 +1,120 @@
+.trending {
+    margin-left: 2.3%;
+    padding: 0%;
+    border-right: 1px solid #E1E8ED;
+}
+
+.trending-search {
+    background-color: #E1E8ED;
+    padding: 4% 10%;
+    border-radius: 50px;
+    width: 100%;
+    display: flex;
+}
+
+.trending-search-input {
+    background-image: url("images/search.png");
+    background-size: 2%;
+    background-position: 30px 12px;
+    background-repeat: no-repeat;
+    width: 40rem;
+    margin: 0% 3%;
+    border: none;
+    padding: 6px 20px 6px 70px!important;
+}
+
+.trending-search-input:hover {
+    border: none;
+    box-shadow: none;
+}
+
+.trending-search-input:focus {
+    border: 1px solid #1DA1F2;
+    background-color: white;
+    outline: none;
+    box-shadow: none;
+}
+
+.trending-search-settings {
+    float: right;
+    padding-top: 1%;
+    color: #1DA1F2;
+}
+
+.t-box {
+    margin-left: 1%;
+    font-weight: 900;
+    border-bottom: 1px solid #E1E8ED;
+    text-align: center;
+    margin-top: 1.45%;
+    z-index: 0;
+}
+
+.t-navbar {
+    color: #657786;
+    transition: background-color .5s ease;
+    width: 7.1rem;
+    font-size: .8rem;
+    word-wrap: normal;
+    padding-top: 4%;
+    padding-bottom: 2%;
+    padding: 2.6%;
+    background-color: white;
+}
+
+.t-navbar:hover {
+    background-color: #caebff;
+    color: #1DA1F2;
+}
+
+.t-active {
+    border-bottom: 2px solid #1DA1F2;
+}
+
+.t-last {
+    padding-left: 1.5%;
+}
+
+.t-nabar-box {
+    margin-top: 2%;
+    margin-left: 1%;
+}
+
+.t-section {
+    margin-top: 16%;
+    margin-left: 2.8%;
+}
+
+.t-section-heading {
+    padding: 1%;
+    padding-left: 3%;
+    font-weight: 900;
+    font-size: 1.2rem;
+    padding-bottom: 2%;
+    border-bottom: 1px solid #E1E8ED;
+}
+
+.trend {
+    display: block;
+    width: 44em;
+    padding: 1%;
+    border-bottom: 1px solid #E1E8ED;
+}
+
+.trend-heading {
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 0em;
+    margin-top: 1%;
+}
+
+.trend-desc {
+    color: #657786;
+    font-size: 0.9rem;
+    display: block;
+}
+
+.trend-end {
+    color: #657786;
+    font-size: 0.75rem;
+}
