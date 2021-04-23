@@ -161,3 +161,34 @@
     border-bottom-right-radius: 10px!important;
     background-color: #F5F8FA;
 }
+
+.ttp-button {
+    border-radius: 25px;
+    color: #1DA1F2;
+    background-color: white;
+    font-weight: 800;
+    position: absolute;
+    top: 20%;
+    right: 15%;
+}
+
+.ttp-cross {
+    position: absolute;
+    top: 25%;
+    right: 6%;
+    color: rgba(0, 0, 0, 0.459);
+}
+
+.rb-des {
+    font-size: .8rem;
+}
+
+.rb-des-a {
+    color: #657786;
+    text-decoration: none;
+}
+
+.rp-des-a-hover:hover {
+    color: #657786;
+    text-decoration: underline;
+}
