@@ -5,12 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Explore/Twitter</title>
+    <title>Home / Twitter</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/3fcd57f42d.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/left-bar.css">
+    <link rel="stylesheet" href="css/middle-bar.css">
     <link rel="stylesheet" href="css/right-bar.css">
-    <link rel="stylesheet" href="css/trendingpage.css">
 </head>
 
 <body>
@@ -28,7 +28,7 @@
                         </a>
                     </li>
                     <li class="nav-item ps-2 content">
-                        <a href="#" class="link-dark left-active p-3">
+                        <a href="Trending.html" class="link-dark left-active p-3">
                             <i class="fas fa-hashtag fa-lg	"></i><span class="left-bar-text ms-4 me-5">Explore</span>
                         </a>
                     </li>
@@ -53,7 +53,7 @@
                         </a>
                     </li>
                     <li class="nav-item ps-2 content">
-                        <a href="#" class="link-dark left-active p-3 ">
+                        <a href="Profile.html" class="link-dark left-active p-3 ">
                             <i class="far fa-user fa-lg	"></i><span class="left-bar-text ms-4 me-5">Profile</span>
                         </a>
                     </li>
@@ -88,88 +88,112 @@
                 </ul>
             </div>
         </div>
-        <div class="col-6 trending">
-            <ul class="nav bg-white ">
-
-                <div class="bg-white">
-                    <li class="nav-item text-center mt-1 d-flex position-fixed ms-5 bg-white top-bg">
-
-                        <input class="d-block trending-search trending-search-input" type="text" name="" id="" placeholder="Search Tweets">
-                        <i class="fas fa-cog fa-lg pt-2 trending-search-settings mt-1"></i>
-                    </li>
-                    <li class="position-fixed t-nabar-box">
-                        <div class="d-flex t-box">
-                            <div class=" t-navbar">
-                                For You
-                            </div>
-                            <div class=" t-navbar ">
-                                COVID-19
-                            </div>
-                            <div class=" t-navbar t-active">
-                                Trending
-                            </div>
-                            <div class=" t-navbar">
-                                News
-                            </div>
-                            <div class=" t-navbar">
-                                Sports
-                            </div>
-                            <div class=" t-navbar t-last">
-                                Entertainment
-                            </div>
-                        </div>
-                    </li>
+        <div class="col-6 middle">
+            <h4 class="mid-home">Home <i class="far fa-star float-end mid-star"></i></h4>
+            <hr>
+            <div class="mid-tweet">
+                <div class="row">
+                    <div class="col-2 ">
+                        <img class="mid-tweet-profile" src="images/profile.png" alt="">
+                    </div>
+                    <div class="col-10">
+                        <input class="form-control mid-tweet-input" type="text" name="" id="tweet" onchange="changetext(this)" placeholder="What's Happening">
+                    </div>
                 </div>
-            </ul>
-            <div class="t-section">
-                <h4 class="t-section-heading">India Trends</h4>
-                <ul class="nav">
-                    <li class="trend">
-                        <h6 class="trend-heading ms-3">#Mi11Series<i class="fas fa-ellipsis-h trend-options float-end"></i></h6>
-                        <span class="trend-desc ms-3">Pre-order starts tomorrow 12 noon</span>
-                        <span class="trend-end ms-3">Promoted by  Mi India</span>
-                    </li>
-                    <li class="trend">
-                        <span class="trend-end ms-3">1. Politics · Trending <i class="fas fa-ellipsis-h trend-options float-end"></i></span>
-                        <h6 class="trend-heading ms-3">#ModiJiGirldFriendDilao</h6>
-                        <span class="trend-desc ms-3">Modiji Girlfriend Dilao Pls U.U</span>
-                        <span class="trend-end ms-3">120k Tweets</span>
-                    </li>
-                    <li class="trend">
-                        <span class="trend-end ms-3">2. Education · Trending <i class="fas fa-ellipsis-h trend-options float-end"></i></span>
-                        <h6 class="trend-heading ms-3">#IslamuddinSirOnFire</h6>
-                        <span class="trend-desc ms-3">Har class mai viva kon leta h yar ._.</span>
-                        <span class="trend-end ms-3">200k Tweets</span>
-                    </li>
-                    <li class="trend">
-                        <span class="trend-end ms-3">3. Entertainment · Trending <i class="fas fa-ellipsis-h trend-options float-end"></i></span>
-                        <h6 class="trend-heading ms-3">#ClubvsJob</h6>
-                        <span class="trend-desc ms-3">I don't want a warning so no comments</span>
-                        <span class="trend-end ms-3">1M+ Tweets</span>
-                    </li>
-                    <li class="trend">
-                        <span class="trend-end ms-3">4. Entertainment · Trending <i class="fas fa-ellipsis-h trend-options float-end"></i></span>
-                        <h6 class="trend-heading ms-3">#CancelBoardExams</h6>
-                        <span class="trend-desc ms-3">Bete padhai chorh do na.. Chai Becho</span>
-                        <span class="trend-end ms-3">1M+ Tweets</span>
-                    </li>
-                    <li class="trend">
-                        <span class="trend-end ms-3">5. Entertainment · Trending<i class="fas fa-ellipsis-h trend-options float-end"></i> </span>
-                        <h6 class="trend-heading ms-3">#Covid-19</h6>
-                        <span class="trend-desc ms-3"></span>
-                        <span class="trend-end ms-3">1M+ Tweets</span>
-                    </li>
+                <div class="row">
+                    <div class="col-2">
+                    </div>
 
-                </ul>
+                    <div class="col-10">
+                        <div class="ms-3 mt-4">
+                            <i class="fas fa-file-image icon"></i>
+                            <i class="fas fa-camera icon ps-3"></i>
+                            <i class="fas fa-chart-bar icon ps-3"></i>
+                            <i class="far fa-smile icon ps-3"></i>
+                            <i class="far fa-calendar-alt icon ps-3"></i>
+                            <button class="btn btn-primary mid-tweet-button" id="tweet-btn">Tweet</button>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="mid-gap-bar mt-2 mb-3"></div>
+                <div class="mid-post">
+                    <div class="row">
+                        <div class="col-2">
+                            <img class="mid-tweet-profile" src="images/profile.png" alt="">
+                        </div>
+                        <div class="col-10">
+                            <h4 class="mid-post-profile">Sarfraz <span class="mid-post-id">@sarf_alam</span>
+                            </h4>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, voluptates sint. Ipsam a porro voluptates praesentium unde eveniet, et asperiores. Dolore ipsa doloremque sed nobis architecto praesentium itaque porro minima!
+                        </div>
+                    </div>
+                    <div class="text-center pt-2">
+                        <i class="far fa-comment me-5  mid-post-icon"></i>
+                        <i onclick="Retweet(this)" class="fas fa-retweet me-5  mid-post-icon"></i>
+                        <i onclick="LikeButton(this)" class="far fa-heart me-5  mid-post-icon like"></i>
+                        <i class="far fa-share-square  mid-post-icon"></i>
+                    </div>
+                </div>
+                <div class="mid-post mt-2">
+                    <div class="row">
+                        <div class="col-2">
+                            <img class="mid-tweet-profile" src="images/profile.png" alt="">
+                        </div>
+                        <div class="col-10">
+                            <h4 class="mid-post-profile">Elon Musk <i class="fas fa-certificate mid-star me-2"></i><span class="mid-post-id">@elonmusk</span>
+                            </h4>
+                            No it doesn’t hurt at all
+                            </span>
+                            <img class="mid-post-photo mt-3 elon-tweet" src="images/elon.jfif" alt="" srcset="">
+                        </div>
+                    </div>
+
+                    <div class="text-center pt-2">
+                        <i class="far fa-comment me-5  mid-post-icon"></i>
+                        <i onclick="Retweet(this)" class="fas fa-retweet me-5  mid-post-icon"></i>
+                        <i onclick="LikeButton(this)" class="far fa-heart me-5  mid-post-icon like"></i>
+                        <i class="far fa-share-square  mid-post-icon"></i>
+                    </div>
+                </div>
+
+                <div class="mid-post mt-2">
+                    <div class="row">
+                        <div class="col-2">
+                            <img class="mid-tweet-profile" src="images/profile.png" alt="">
+                        </div>
+                        <div class="col-10">
+                            <h4 class="mid-post-profile">Sarfraz <span class="mid-post-id">@elonmusk</span>
+                            </h4>
+                            Hey! You ok?? <span class="mid-star">
+                                <a class = "hashtag" href="">#SonicTheHedgehog</a> 
+                                #sonicfanart </a>
+                                <a class = "hashtag" href="">#3dart </a>
+                                <a class = "hashtag" href="">#SonicMovie2</a>
+                            </span>
+                            <img class="mid-post-photo mt-3" src="images/sonik.jfif" alt="" srcset="">
+                        </div>
+                    </div>
+
+                    <div class="text-center pt-2">
+                        <i class="far fa-comment me-5  mid-post-icon"></i>
+                        <i onclick="Retweet(this)" class="fas fa-retweet me-5  mid-post-icon"></i>
+                        <i onclick="LikeButton(this)" class="far fa-heart me-5  mid-post-icon like"></i>
+                        <i class="far fa-share-square  mid-post-icon"></i>
+                    </div>
+                </div>
+
+
             </div>
         </div>
         <div class="col-3 float-end">
             <ul class="nav align-center">
-                <!-- <li class="nav-item ps-2 pe-2 d-flex mt-1">
+                <li class="nav-item ps-2 pe-2 d-flex mt-1">
                     <input class="search-box form-control search-input" type="text" name="" id="" placeholder="Search">
-                </li> -->
+                </li>
 
-                <!-- <li class="nav pt-3">
+                <li class="nav pt-3">
                     <div class="card rp-people">
                         <div class="rp-header">
                             <h3 class="rp-header-text">Relevant People</h3>
@@ -229,7 +253,7 @@
                             </li>
 
                         </ul>
-                </li> -->
+                </li>
                 <li class="nav pt-3">
                     <div>
                         <div class="news-header news wh-top">
@@ -324,10 +348,10 @@
                     </div>
                     </span>
 
-        </div>
-        </li>
+                    </div>
+                </li>
 
-        </ul>
+            </ul>
         </div>
     </main>
 
@@ -335,7 +359,6 @@
     </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="index.js"></script>
-
 </body>
 
 </html>

@@ -4,6 +4,12 @@
     border-right: 1px solid #E1E8ED;
 }
 
+.top-bg {
+    left: 22%;
+    bottom: 88%;
+    padding: 2em;
+}
+
 .trending-search {
     background-color: #E1E8ED;
     padding: 4% 10%;
@@ -17,15 +23,11 @@
     background-size: 2%;
     background-position: 30px 12px;
     background-repeat: no-repeat;
-    width: 40rem;
+    width: 38rem;
     margin: 0% 3%;
     border: none;
     padding: 6px 20px 6px 70px!important;
-}
-
-.trending-search-input:hover {
-    border: none;
-    box-shadow: none;
+    border: 1px solid #ffffff;
 }
 
 .trending-search-input:focus {
@@ -46,7 +48,7 @@
     font-weight: 900;
     border-bottom: 1px solid #E1E8ED;
     text-align: center;
-    margin-top: 1.45%;
+    margin-top: 3%;
     z-index: 0;
 }
 
@@ -72,6 +74,7 @@
 }
 
 .t-last {
+    background-color: white;
     padding-left: 1.5%;
 }
 
